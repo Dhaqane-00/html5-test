@@ -6,7 +6,6 @@ body {
 }
 
 .container {
-    width: 80%;
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -23,36 +22,36 @@ header {
     display: flex;
 }
 
-nav {
+.sidebar {
+    width: 20%;
     background-color: #e0e0e0;
-    width: 200px;
     padding: 20px;
-    box-sizing: border-box;
 }
 
-nav ul {
+.sidebar ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
-    margin: 20px 0;
+.sidebar ul li {
+    margin: 15px 0;
 }
 
-nav ul li a {
+.sidebar ul li a {
     text-decoration: none;
     color: #003366;
     font-weight: bold;
 }
 
-.hero-section {
-    flex-grow: 1;
+.content-area {
+    width: 80%;
+    padding: 20px;
 }
 
 .hero-image {
     width: 100%;
     height: auto;
-    display: block;
+    margin-bottom: 20px;
 }
 
 .content {
